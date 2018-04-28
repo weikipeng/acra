@@ -1,4 +1,13 @@
-[![Click here to lend your support to: ACRA - Application Crash Reports for Android and make a donation at www.pledgie.com !](https://pledgie.com/campaigns/18789.png?skin_name=chrome)](http://www.pledgie.com/campaigns/18789) [![Flattr this project](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=kevingaudin&url=http://acra.ch&title=ACRA%20-%20Application%20Crash%20Reports%20for%20Android&language=&tags=opensource%2Candroid&category=software&description=ACRA%20%28Application%20Crash%20Reports%20for%20Android%29%20is%20an%20open%20source%20android%20library%20for%20developers%2C%20enabling%20their%20apps%20to%20send%20detailed%20reports%20when%20they%20crash.)
+
+||Current Status|
+|---|---|
+|Bintray|[ ![Bintray](https://api.bintray.com/packages/acra/maven/ACRA/images/download.svg) ](https://bintray.com/acra/maven/ACRA/_latestVersion)|
+|Maven Central|[![Maven Central](https://img.shields.io/maven-central/v/ch.acra/acra-core.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22ch.acra%22)|
+|Android Versions|![minVersion](https://img.shields.io/badge/dynamic/json.svg?label=Minimal%20Android%20Version&colorB=FF6F00&query=version&uri=https%3A%2F%2Ffaendir.com%2Fandroid%2Facra.php%3Fversion%3DandroidMinVersion) ![targetVersion](https://img.shields.io/badge/dynamic/json.svg?label=Target%20Android%20Version&colorB=64DD17&query=version&uri=https%3A%2F%2Ffaendir.com%2Fandroid%2Facra.php%3Fversion%3DandroidVersion)|
+|License|![license](https://img.shields.io/github/license/ACRA/acra.svg)|
+|Donations|[![Flattr this project](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=kevingaudin&url=http://acra.ch&title=ACRA%20-%20Application%20Crash%20Reports%20for%20Android&language=&tags=opensource%2Candroid&category=software&description=ACRA%20%28Application%20Crash%20Reports%20for%20Android%29%20is%20an%20open%20source%20android%20library%20for%20developers%2C%20enabling%20their%20apps%20to%20send%20detailed%20reports%20when%20they%20crash.)|
+
+**Please take 5 Minutes to fill out our [User survey](https://goo.gl/forms/nyt9qkCk1GptRGlw2)!**
 
 What is ACRA ?
 ==============
@@ -18,7 +27,7 @@ A crash reporting feature for android apps is native since Android 2.2 (FroYo) b
   * you can send [error reports even if the application doesn't crash](http://github.com/ACRA/acra/wiki/AdvancedUsage#wiki-Sending_reports_for_caught_exceptions)
   * works for any application even if not delivered through Google PLay => great for devices/regions where the Google Play is not available, beta releases or for enterprise private apps
   * if there is no network coverage, reports are kept and sent on a later application restart
-  * can be used with [your own self-hosted report receiver script](http://github.com/ACRA/acra/wiki/AdvancedUsage#wiki-Reports_destination)
+  * can be used with [your own self-hosted report receiver script](https://github.com/ACRA/acra/wiki/Report-Destinations)
 
 ACRA's notification systems are clean. If a crash occurs, your application does not add user notifications over existing system's crash notifications or reporting features. By default, the "force close" dialog is not displayed anymore, to enable it set `alsoReportToAndroidFramework` to `true`.
 
@@ -26,13 +35,12 @@ The user is notified of an error only once, and you might enhance the perceived 
 
 Please do not hesitate to open defects/enhancements requests in [the issue tracker](http://github.com/ACRA/acra/issues).
 
-Latest version ACRA v4.10.0 - 13-JUN-2017
+Latest version
 ===========================================
 
-**Note: Temporarily moved upload to `com.faendir:acra:4.10.0`, as all team members with repository access are absent**
+For the latest version and a complete changelog, please see the [ChangeLog page](http://github.com/ACRA/acra/wiki/ChangeLog) in the Wiki.
 
-For a complete changelog, please see the [ChangeLog page](http://github.com/ACRA/acra/wiki/ChangeLog) in the Wiki.
-
+For migrating from previous versions, please see our [Migration guide](http://github.com/ACRA/acra/wiki/Migrating) in the Wiki.
 
 And after that?
 ===============
